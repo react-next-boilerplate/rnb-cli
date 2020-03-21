@@ -1,0 +1,21 @@
+{
+  "name": "@RNB/cli",
+  "version": "0.0.1",
+  "description": "A cli where you take on different tasks to react-next-boilerplate",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-next-boilerplate/RNB-CLI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/react-next-boilerplate/RNB-CLI/issues"
+  },
+  "homepage": "https://github.com/react-next-boilerplate/RNB-CLI#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.3",
+    "signale": "^1.4.0"
+  }
+}
