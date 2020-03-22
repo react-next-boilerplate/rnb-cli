@@ -2,11 +2,6 @@
 
 "use strict";
 
-const { rnbCLI } = require("..");
+const { options, handleInput } = require("..");
 
-process.stdin.resume();
-process.stdin.setEncoding("utf8");
-
-process.stdin.on("end", () => {
-  rnbCLI();
-});
+handleInput(options);

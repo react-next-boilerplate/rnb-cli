@@ -2,9 +2,9 @@
 
 const shell = require("shelljs");
 
-const { configDefault, signale } = require("./config-default");
+const configDefault = require("./config-default");
 
-const Cleanup = () => {
+const cleanup = () => {
   if (!shell.which("git")) {
     shell.echo("Sorry, this script requires git");
 
@@ -12,7 +12,7 @@ const Cleanup = () => {
   }
 
   if (!shell.test("-e", "docs")) {
-    signale.info(`The example is deleted already.`);
+    configDefault.signale.info(`The example is deleted already.`);
 
     shell.exit(1);
   }
@@ -20,12 +20,12 @@ const Cleanup = () => {
   if (
     !shell.test("-e", `${process.cwd()}/${configDefault.defaultPathTemplates}`)
   ) {
-    signale.info(`Install the following package. @RNB/cli`);
+    configDefault.signale.info(`Install the following package. @r-next-b/cli`);
 
     shell.exit(1);
   }
 
-  signale.pending("Cleanup started...");
+  configDefault.signale.pending("Cleanup started...");
 
   // Handle docs/* folder
   shell.rm("-rf", "docs");
@@ -65,12 +65,12 @@ const Cleanup = () => {
     shell.exec('git add . --all && git commit -qm "Remove default example"')
       .code !== 0
   ) {
-    signale.error("Error: Git commit failed");
+    configDefault.signale.error("Error: Git commit failed");
 
     shell.exit(1);
   }
 
-  signale.complete("Cleanup done. ready for Coding");
+  configDefault.signale.complete("Cleanup done. ready for Coding");
 };
 
-module.exports = { Cleanup };
+module.exports = cleanup;

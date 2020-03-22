@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 
 const { Cleanup } = require("./cleanup");
 
-(async () => {
+const initCli = () => {
   inquirer
     .prompt([
       {
@@ -40,4 +40,6 @@ const { Cleanup } = require("./cleanup");
         Cleanup();
       }
     });
-})();
+};
+
+module.exports = initCli;
