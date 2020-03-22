@@ -1,3 +1,5 @@
+"use strict";
+
 const { Signale } = require("signale");
 
 const DEFAULT_PATH_TEMPLATES =

@@ -3,19 +3,40 @@
   "version": "0.0.2",
   "description": "A cli where you take on different tasks to react-next-boilerplate",
   "main": "index.js",
+  "files": [
+    "{bin,src}/*.js",
+    "templates",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/react-next-boilerplate/RNB-CLI.git"
   },
-  "author": "",
+  "author": "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>",
+  "maintainers": [
+    "Jorge Luis Calleja <jorge.calleja@wootsbot.dev>"
+  ],
+  "contributors": [],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/react-next-boilerplate/RNB-CLI/issues"
   },
   "homepage": "https://github.com/react-next-boilerplate/RNB-CLI#readme",
+  "scripts": {
+    "lint": "jshint ./src ./index.js"
+  },
+  "bin": {
+    "rnb-cli": "./bin/rnb-cli.js"
+  },
   "dependencies": {
     "inquirer": "^7.1.0",
     "shelljs": "^0.8.3",
     "signale": "^1.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "jshint": "^2.11.0"
   }
 }

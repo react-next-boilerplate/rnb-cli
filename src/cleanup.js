@@ -1,9 +1,8 @@
+"use strict";
+
 const shell = require("shelljs");
-const { Signale } = require("signale");
 
 const { configDefault, signale } = require("./config-default");
-
-const fs = eval("require('fs')");
 
 const Cleanup = () => {
   if (!shell.which("git")) {
