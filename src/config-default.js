@@ -1,7 +1,7 @@
 const { Signale } = require("signale");
 
 const DEFAULT_PATH_TEMPLATES =
-  "node_modules/@RNB/cli/templates/react-next-boilerplate";
+  "node_modules/@r-next-b/cli/templates/react-next-boilerplate";
 
 const options = {
   scope: "Cleanup"
