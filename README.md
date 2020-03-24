@@ -1,4 +1,4 @@
-**Disclaimer: `@r-next-b/cli` was created for use within react-next-boilerplate and is not intended for use outside of boilerplate**
+**Disclaimer: `@r-next-b/cli` was created to be used within react-next-boilerplate and is not intended to be used outside of react-next-boilerplate**
 
 <p align="center">
   <a href="https://github.com/react-next-boilerplate/RNB-CLI">
@@ -12,7 +12,7 @@
 
 ## Commands
 
-After installing it, run rnb --help without arguments to see list of options.
+After installing it, `run rnb --help` without arguments to see list of options.
 
 ```shell
 rnb
