@@ -26,7 +26,17 @@
     "lint": "jshint ./src ./index.js"
   },
   "bin": {
-    "rnb-cli": "./bin/rnb-cli.js"
+    "rnb": "./bin/rnb-cli.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "jshint ./src ./index.js"
+    ]
   },
   "dependencies": {
     "inquirer": "^7.1.0",
@@ -38,6 +48,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "jshint": "^2.11.0"
+    "husky": "^4.2.3",
+    "jshint": "^2.11.0",
+    "lint-staged": "^10.0.8"
   }
 }
