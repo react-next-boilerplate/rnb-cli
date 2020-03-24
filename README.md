@@ -12,10 +12,9 @@
 
 ## Commands
 
-After installing it, run pkg --help without arguments to see list of options.
+After installing it, run rnb --help without arguments to see list of options.
 
 ```shell
-
 rnb
 ```
 
