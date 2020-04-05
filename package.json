@@ -1,6 +1,6 @@
 {
   "name": "@r-next-b/cli",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Simple commands to manage and facilitate specific react-next-boilerplate tasks",
   "main": "index.js",
   "files": [
