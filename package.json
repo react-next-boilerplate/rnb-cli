@@ -1,7 +1,7 @@
 {
   "name": "@r-next-b/cli",
   "version": "0.0.5",
-  "description": "A cli where you take on different tasks to react-next-boilerplate",
+  "description": "Simple commands to manage and facilitate specific react-next-boilerplate tasks",
   "main": "index.js",
   "files": [
     "{bin,src}/*.js",
@@ -22,6 +22,14 @@
     "url": "https://github.com/react-next-boilerplate/RNB-CLI/issues"
   },
   "homepage": "https://github.com/react-next-boilerplate/RNB-CLI#readme",
+  "keywords": [
+    "react-next-boilerplate",
+    "react",
+    "nextjs",
+    "cli",
+    "commands",
+    "node"
+  ],
   "scripts": {
     "lint": "jshint ./src ./index.js"
   },
