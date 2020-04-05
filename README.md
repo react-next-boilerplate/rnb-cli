@@ -8,6 +8,24 @@
 
 <br />
 
+<div align="center">
+  <!-- react-next-boilerplate STATUS -->
+  <a href="https://www.npmjs.com/package/@r-next-b/cli">
+    <img src="https://img.shields.io/github/package-json/v/react-next-boilerplate/react-next-boilerplate?color=000&label=react-next-boilerplate&style=for-the-badge" alt="react-next-boilerplate Status" />
+  </a>
+ 
+  <!-- VERSION STATUS -->
+  <a href="https://www.npmjs.com/package/@r-next-b/cli">
+    <img src="https://img.shields.io/npm/v/@r-next-b/cli?color=%23e9009a&label=%40r-next-b%2Fcli&logo=%40r-next-b%2Fcli&logoColor=%239500e2&style=for-the-badge" alt="Version Status" />
+  </a>
+ 
+  <!-- LICENSE STATUS -->
+  <a href="https://www.npmjs.com/package/@r-next-b/cli">
+    <img src="https://img.shields.io/github/license/react-next-boilerplate/rnb-cli?color=8f00e8&style=for-the-badge" alt="license Status" />
+  </a>
+
+</div>
+
 <div align="center">💻 Simple commands to manage and facilitate specific react-next-boilerplate tasks</div>
 
 ## Commands
